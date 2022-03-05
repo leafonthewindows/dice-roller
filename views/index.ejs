@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1ed7ab3e1c.js" crossorigin="anonymous"></script>
+    <title>Dice Roller</title>
+</head>
+
+<body>
+    <main id="content">
+        <h1><i class="fa-solid fa-dice-d20" alt=""></i> Welcome to Dice Roller <i class="fa-solid fa-dice-d20"
+                alt=""></i></h1>
+        <section id="diceSelection">
+            <button class="diceButton" id="d4">d4</button>
+            <button class="diceButton" id="d6">d6</button>
+            <button class="diceButton" id="d8">d8</button>
+            <button class="diceButton" id="d10">d10</button>
+            <button class="diceButton" id="d12">d12</button>
+            <button class="diceButton selected" aria-selected="true" id="d20">d20</button>
+            <button class="diceButton" id="d100">d100</button>
+        </section>
+        <section id="diceNum">
+            <label for="diceQty">
+                Number of Dice:
+            </label>
+            <select name="diceQty" id="diceQty">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+        </section>
+        <section id="rollType">
+            <button class="rollButton" id="disadvantage">Disadvantage</button>
+            <button class="rollButton" id="single">Single Roll</button>
+            <button class="rollButton" id="advantage">Advantage</button>
+        </section>
+        <section id="result">
+            <h2 id="rollResult"></h2>
+        </section>
+    </main>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
