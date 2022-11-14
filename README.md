@@ -2,7 +2,7 @@
 
 ## URL
 
-https://dice-roller.onrender.com/
+https://dice-roller-xi62.onrender.com/
 
 ## Description
 
